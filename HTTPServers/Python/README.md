@@ -1,7 +1,7 @@
 # Een Python HTTP Server
 Een kleine server, die wanneer je die draait in de webbrowser kan gebruiken.
 
-![Resultaat](resultaat.png "Webbrowser")
+![Resultaat](./resultaat.png "Webbrowser")
 
 ## Terminologie
 In deze voorbeeld wordt het volgende vakjargon gebruikt:
