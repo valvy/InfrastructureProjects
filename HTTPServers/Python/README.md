@@ -1,14 +1,30 @@
-# A Python HTTP Server
+# Een Python HTTP Server
+Een kleine server, die wanneer je die draait in de webbrowser kan gebruiken.
 
+![Resultaat](resultaat.png "Webbrowser")
 
 ## Terminologie
 In deze voorbeeld wordt het volgende vakjargon gebruikt:
-1. socket
-2. port
-3. host
-4. html
-5. http
-6. TCP
+1. socket\
+Methode waarmee je programma kan communiceren met andere programma. 
+2. port\
+Er kunnen meerdere programma's op een computer draaien, met de port nummer kunnen ze met elkaar communiceren
+3. host\
+De domein naam of IP van het programma
+4. html\
+Hypertext Markup Language, de taal waar web apps in gemaakt zijn
+5. TCP, Transmission Control Protocol, Het protocol gebruikt onder HTTP
+
+## Flow van het programma
+1. Maak een TCP socket aan
+2. Bind de socket aan localhost en poort 8081
+3. Zet de timeout van de socket op 100ms
+4. Accepteer inkomende connectie
+5. Print de inkomende string als UTF-8
+6. Geef een HTTP connectie terug met wat HTML
+7. Sluit de geaccepteerde connectie
+8. ga naar stap 4
+
 
 ## Code
 ```python
