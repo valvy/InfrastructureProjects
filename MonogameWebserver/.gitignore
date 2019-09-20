@@ -1,9 +1,0 @@
-
-*
-*/**
-!.gitignore
-!*.cs
-!*.csproj
-!.mgcontent
-!Content/**
-!Content/*
