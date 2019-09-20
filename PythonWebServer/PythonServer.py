@@ -4,7 +4,7 @@
 import socket
 
 # Some Global Variables
-PORT = 8080
+PORT = 8081
 HOST = 'localhost'
 INPUT_BUFFER = 1024
 
